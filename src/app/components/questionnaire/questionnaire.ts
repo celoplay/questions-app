@@ -8,7 +8,8 @@ import { IQuestion } from '../../models/question.model';
   styleUrl: './questionnaire.scss'
 })
 export class Questionnaire {
-  question: IQuestion ={
+
+  public question: IQuestion = {
     text: '¿Cual es la capital de España?',
     
     answerOptions: [
