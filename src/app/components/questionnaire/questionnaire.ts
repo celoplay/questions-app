@@ -22,4 +22,11 @@ export class Questionnaire {
   public answerChoosed: boolean = false;
   public answerCorred: boolean = false;
 
+  checkAnswer(index:number){
+    this.answerCorred = (this.question.correctAnswerIndex === index);
+    this.answerChoosed = true;
+
+    console.log(this.answerCorred);
+  }
+
 }

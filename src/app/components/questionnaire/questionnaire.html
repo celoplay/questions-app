@@ -8,14 +8,30 @@
         </div>
     </div>
 
-    <div class="row mt-4">
-        @for (answer of question.answerOptions; track answer) {
-            <div class="col-12 mt-2 mb-2" [ngClass]="'col-md-'+(12/question.answerOptions.length)">
-                <button class="btn btn-primary w-100">{{answer}}</button>
+    <div class="row mt-2">
+        @for (answer of question.answerOptions; track answer; let index = $index) {
+        <div class="col-12 mt-2 mb-2" [ngClass]="'col-md-'+(12/question.answerOptions.length)">
+            <button class="btn btn-primary w-100" (click)="checkAnswer(index)">{{answer}}</button>
         </div>
         }
-        
+
 
     </div>
+    @if (answerChoosed) {
+
+    @if (answerCorred) {
+    <div>
+        <div class="alert alert-primary" role="alert">
+            ¡Has acertado!
+        </div>
+    </div>
+    }@else {
+    <div>
+        <div class="alert alert-danger" role="alert">
+            ¡Lastima, has fallado!
+        </div>
+    </div>
+    }
+    }
 
 </div>
