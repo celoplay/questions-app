@@ -1,5 +1,3 @@
-## 📝 README para `questions-app`
-```markdown
 # ❓ Questions App (Angular • Aprendizaje)
 
 [![Angular](https://img.shields.io/badge/Angular-Framework-red)]()
