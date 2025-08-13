@@ -1,59 +1,70 @@
-# QuestionsApp
+## 📝 README para `questions-app`
+```markdown
+# ❓ Questions App (Angular • Aprendizaje)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.6.
+[![Angular](https://img.shields.io/badge/Angular-Framework-red)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-Language-blue)]()
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
-## Development server
+Aplicación de **preguntas y respuestas** construida con **Angular + TypeScript**.  
+> Proyecto didáctico basado en material de curso, con adaptaciones personales para reforzar el aprendizaje.
 
-To start a local development server, run:
+---
 
-```bash
+## 🚀 Funcionalidades
+- Listado de preguntas disponibles
+- Mostrar respuesta al seleccionar pregunta
+- Posibilidad de añadir nuevas preguntas (en desarrollo)
+- Navegación básica entre vistas
+
+---
+
+## 🧰 Tecnologías
+- Angular
+- TypeScript
+- HTML / CSS
+- Node.js + npm
+- Git
+
+---
+
+## 📦 Requisitos
+- Node 18+ (recomendado)
+- Angular CLI instalado globalmente:
+  ```bash
+  npm i -g @angular/cli
+▶️ Ejecución local
+bash
+Copiar
+Editar
+git clone https://github.com/celoplay/questions-app
+cd questions-app
+npm install
 ng serve
-```
+# Abre http://localhost:4200
+🧠 Qué aprendí
+Uso de listas y bucles en Angular
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Comunicación entre componentes
 
-## Code scaffolding
+Manejo básico de rutas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Plantillas dinámicas con interpolación y binding
 
-```bash
-ng generate component component-name
-```
+Estructuración modular de la aplicación
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+✨ Cambios personales
+Añadí estilo propio a la interfaz
 
-```bash
-ng generate --help
-```
+Preparé estructura para futura conexión a API externa
 
-## Building
+Comentarios en el código para mayor claridad
 
-To build the project run:
+📝 Nota de créditos
+Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer
+Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+👤 Autor
+Marcelo Aizaga M. — Valencia, España
+GitHub: https://github.com/celoplay
+LinkedIn: https://www.linkedin.com/in/marcelo-aizaga
