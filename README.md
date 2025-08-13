@@ -27,29 +27,32 @@ Aplicación de **preguntas y respuestas** construida con **Angular + TypeScript*
 - Node 18+ (recomendado)
 - Angular CLI
 
-▶️ Ejecución local
-git clone https://github.com/celoplay/questions-app
-cd questions-app
-npm install
-ng serve
-# Abre http://localhost:4200
+## ▶️ Ejecución local
+git clone https://github.com/celoplay/questions-app<br>
+cd questions-app<br>
+npm install<br>
+ng serve<br>
+abre http://localhost:4200
 
-🧠 Qué aprendí
-Uso de listas y bucles en Angular
-Comunicación entre componentes
-Manejo básico de rutas
-Plantillas dinámicas con interpolación y binding
-Estructuración modular de la aplicación
+## 🧠 Qué aprendí
+- Uso de listas y bucles en Angular
+- Comunicación entre componentes
+- Manejo básico de rutas
+- Plantillas dinámicas con interpolación y binding
+- Estructuración modular de la aplicación
 
-✨ Cambios personales
-Añadí estilo propio a la interfaz
-Comentarios en el código para mayor claridad
+## ✨ Cambios personales
+- Añadí estilo propio a la interfaz
+- Comentarios en el código para mayor claridad
 
-📝 Nota de créditos
-Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer
+## 📝 Nota
+Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer  <br>
 Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
 
-👤 Autor
-Marcelo Aizaga M. — Valencia, España
-GitHub: https://github.com/celoplay
+
+
+## 👤 Autor
+
+**Marcelo Aizaga M.** — Valencia, España  
+GitHub: https://github.com/celoplay  
 LinkedIn: https://www.linkedin.com/in/marcelo-aizaga
