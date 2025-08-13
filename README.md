@@ -7,7 +7,6 @@
 Aplicación de **preguntas y respuestas** construida con **Angular + TypeScript**.  
 > Proyecto didáctico basado en material de curso, con adaptaciones personales para reforzar el aprendizaje.
 
----
 
 ## 🚀 Funcionalidades
 - Listado de preguntas disponibles
@@ -15,7 +14,6 @@ Aplicación de **preguntas y respuestas** construida con **Angular + TypeScript*
 - Posibilidad de añadir nuevas preguntas (en desarrollo)
 - Navegación básica entre vistas
 
----
 
 ## 🧰 Tecnologías
 - Angular
@@ -24,38 +22,27 @@ Aplicación de **preguntas y respuestas** construida con **Angular + TypeScript*
 - Node.js + npm
 - Git
 
----
 
 ## 📦 Requisitos
 - Node 18+ (recomendado)
-- Angular CLI instalado globalmente:
-  ```bash
-  npm i -g @angular/cli
+- Angular CLI
+
 ▶️ Ejecución local
-bash
-Copiar
-Editar
 git clone https://github.com/celoplay/questions-app
 cd questions-app
 npm install
 ng serve
 # Abre http://localhost:4200
+
 🧠 Qué aprendí
 Uso de listas y bucles en Angular
-
 Comunicación entre componentes
-
 Manejo básico de rutas
-
 Plantillas dinámicas con interpolación y binding
-
 Estructuración modular de la aplicación
 
 ✨ Cambios personales
 Añadí estilo propio a la interfaz
-
-Preparé estructura para futura conexión a API externa
-
 Comentarios en el código para mayor claridad
 
 📝 Nota de créditos
